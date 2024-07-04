@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLR Registration Form</title>
+</head>
+<body>
+    <form action="main.js">
+        <h1><center><u><mark>Learner's Licence Registration Form</mark></u></center></h1>
+    <div>
+        <label for="NAME"><b>NAME :</b></label>
+        <input type="text" name="Name" id="Name" required>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="AGE"><b>AGE :</b></label>
+        <input type="number" name="age" id="age">
+    </div>
+    <br>
+    <br>
+    <div>
+            <label for="dob"><b>DATE OF BIRTH :</b></label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="em"><b>EMAIL ID :</b></label>
+            <input type="email" name="em" id="em">
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <p><b>SELECT YOUR GENDER :</b></p>
+            <input type="radio" name="m" id="M">
+            <label for="M">Male</label>
+            <input type="radio" name="m" id="F">
+            <label for="F">Female</label>
+            <input type="radio" name="m" id="O">
+            <label for="O">Others</label>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p><b>TYPES OF VEHICLES :</b></p>
+            <input type="checkbox" name="type" id="Two-Wheelers">
+            <label for="Two-Wheelers">Two-Wheelers</label>
+            <input type="checkbox" name="type" id="4wheeler">
+            <label for="4wheeler">Four-Wheelers</label>
+        </div>
+        <br>
+        <br>
+
+        <div>
+            <p><b>VEHICLE CATEGORIES :</b></p>
+            <select name="categories" id="categories" multiple>
+                <optgroup label="MCWG">
+                    <option value="Motorcycles">Motorcycles</option>
+                    <option value="Scooters">Scooters</option>
+                    <option value="Bikes">Bikes</option>
+                    <option value="Mopeds">Mopeds</option>
+                  </optgroup>
+                  <optgroup label="LMV">
+                    <option value="SUVs">SUVs</option>
+                    <option value="Jeeps">Jeeps</option>
+                    <option value="Taxis">Taxis</option>
+                    <option value="Vans">Vans</option>
+                    <option value="Auto-Rickshow">Auto-Rickshow</option>
+                  </optgroup>
+                  <optgroup label="HMV">
+                    <option value="Trucks">Trucks</option>
+                    <option value="Buses">Buses</option>
+
+                  </optgroup>
+            </select>
+        </div>
+        <br>
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+    
+
+</body>
+</html>

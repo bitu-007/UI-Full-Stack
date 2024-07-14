@@ -1,60 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-*{
-    margin: 10px;
-}
-
-
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
+* {
     padding: 0;
-    background-color: #9FCFC9;
-    color:black;
-}
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Josefin Sans", sans-serif;
+  }
+  nav a:link {
+    margin-right: 30px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .header {
+    border-radius: 50px 50px 50px 50px;
+    background-color: antiquewhite;
+    padding: 16px 18px;
+    width: auto;
+  }
 
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 60px;
-  font-style: normal;
-}
-
-header{
-    background:#9FCFC9;
-    color: rgb(220, 108, 17);
-    padding: 20px 0;
+  .main-header {
+    display: flex;
+    gap: 150px;
+    background-color: hsl(0, 0%, 8%);
+    margin-bottom: 10px;
+    width: auto;
+  }
+  
+  .head {
+    color: white;
     text-align: center;
-}
-
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p{
-    margin: 0;
-    font-size: 1.2em;
-}
-
-main{
-    padding: 20px;
-}
-.profile img {
-    display: block;
-    width: 400px;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 100%;
-}
-.profile p{
+    width: 1000px;
+    align-self: center;
+    font-size: 70px;
+    font-family: "Caveat", cursive;
+    margin-left: 30px;
+  }
+  .greatest {
+    font-size: 35px;
+    color: #e9ecef;
+  }
+  
+  a:link,
+  a:visited {
+    color: #065c69;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover,
+  a:active {
+    color: rgb(29, 180, 255);
+    font-weight: bold;
+    /* text-decoration: underline rgb(153, 146, 142); */
+    transition: 0.5s;
+    font-size:20px;
+  }
+  
+  .biography {
+    display: flex;
+    gap: 500px;
+    margin-bottom: 60px;
+  }
+  .second-header {
+    margin-bottom: 35px;
+    margin-left: 80px;
+    color: #343a40;
+  }
+  .para {
+    margin-left: 90px;
+  
+    width: 700px;
+    font-size: 20px;
+    color: #868e96;
     text-align: justify;
-    font-size: 1.1em;
-}
+  }
+  
+  h3 {
+    width: 800px;
+    color: #339af0;
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    margin-right: 50px;
+  }
+  
+  footer {
+    background-color: antiquewhite;
+    padding: 16px 18px;
+    width: auto;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
 
-h2{
-    color: blue;
-}
+  #a1{
+    float: right;
+  }

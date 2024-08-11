@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./assets/pngkey.com-red-effect-png-5114605.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo"><span id="logo_span">My</span> Portfolio</div>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <div class="hero_image animate_animated animate_bounceInLeft">
+          <img src="./assets/a3-removebg-preview.png" alt="hero image" />
+        </div>
+
+        <div class="hero_content">
+          <h1>
+            <span class="hi_text">Hi I am
+              <br />
+            </span>
+            <span class="name_text" style="color: #ff004f; font-size: 60px; font-weight: 600">BITU KUMAR</span>
+          </h1>
+          <h2>Full Stack Web Developer</h2>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container1">
+        <h2>About Me</h2>
+        <div id="side-byside">
+
+          <div>
+            <blockquote class="p"><q>Hello! My Name is BITU & I'm a proficent in front-end technologies <u>(HTML, CSS
+                  ,Javascript) </u>and back-end frameworks <u>(Node.js , Express.js)</u> , with experience in database
+                management using MongoDB.Demonstrates strong problem-solving skills & a collborative spirit , having
+                built projects such as personal portfolios & basic e-commerce platforms. Eager to learn adapt to new
+                technologies & committed to delivering high-quality Software solutions. </q></blockquote>
+
+
+            <div id="others">
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                <p class="tab-links" onclick="opentab('strengts')">Strengths</p>
+              </div>
+              <div class="list-items">
+                <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Front-End</span><br>HTML, CSS, JavaScript, React.js</li>
+                    <li><span>Back-End</span><br>Node.js, Express.js</li>
+                    <li><span>Database</span><br>MySQL, MongoDB</li>
+                    <li><span>Version Control</span><br>Git, GitHub</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="languages">
+                  <ul>
+                    <li>Hindi</li>
+                    <li>English</li>
+                    <li>Odia</li>
+                  </ul>
+                </div>
+
+                <div class="tab-contents" id="strengts">
+                  <ul>
+                    <li>Decision Making</li>
+                    <li>Adaptability</li>
+                    <li>Creativity</li>
+                    <li>Problem Solving</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="aboutpicture">
+            <img src="./assets/OIG3-removebg-preview.png" alt="pics">
+          </div>
+        </div>
+
+    </section>
+
+    <section id="project">
+      <h2>Projects</h2>
+      <div class="container">
+        <div class="project_container">
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/1.avif" alt="Project 1" />
+              <div class="card_content">
+                <a href="../CSS/Code/Projects/Tribute Page/index.html" target="_blank">
+                  <h3>Tribute Website</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/2.avif" alt="Project 2" />
+              <div class="card_content">
+                <a href="../CSS/Code/Projects/Grid Project/index.html" target="_blank">
+                  <h3>Grid Project</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/3.jpg" alt="Project 3" />
+              <div class="card_content">
+                <a href="../CSS/Code/Projects/social-links-profile-main/index.html" target="_blank">
+                  <h3>Social Links Profile</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/4.avif" alt="Project 4" />
+              <div class="card_content">
+                <a href="../CSS/Code/Projects/frontendmentor-blog/index.html" target="_blank">
+                  <h3>FrontendMentor Challenge</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/5.jpg" alt="Project 5" />
+              <div class="card_content">
+                <a href="../HTML/code/PROJECT'S/My Resume/index.html" target="_blank">
+                  <h3>Resume</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="grid_item">
+            <div class="card">
+              <img src="./assets/6.avif" alt="Project 6" />
+              <div class="card_content">
+                <a href="../HTML/code/PROJECT'S/Profile Page/index.html" target="_blank">
+                  <h3>Profile Page</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me.....</h2>
+        <div class="top_contact">
+          <div class="contact_way">
+
+            <a href="https://www.gmail.com/" target="_blank">
+              <i class="far fa-envelope"></i>
+              <!-- <h3>@Send Mail</h3> -->
+            </a>
+          </div>
+          <div class="contact_way">
+            <a href="https://www.github.com/" target="_blank">
+              <i class="fab fa-github"></i>
+              <!-- <h3>Github</h3> -->
+            </a>
+          </div>
+          <div class="contact_way">
+            <a href="tel:8249792876" target="_blank">
+              <i class=" fa-solid fa-mobile"></i>
+              <!-- <h3>Mobile</h3> -->
+            </a>
+          </div>
+          <div class="contact_way">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+              <!-- <h3>Facebook</h3> -->
+            </a>
+          </div>
+          <div class="contact_way">
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+              <!-- <h3>Instagram</h3> -->
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="./assets/HTML Notes.pdf" download class="btn btn2">Download CV</a> -->
+    </section>
+
+    <div data-tf-live="01J3ERX487AVG0Q1XGQAH9D89X"></div>
+    <script src="//embed.typeform.com/next/embed.js"></script>
+  </main>
+ 
+
+<section class="contact-form">
+  <form action="#">
+
+    <div class="input-box">
+      <input type="text" placeholder="Name">
+      <input type="email" placeholder="Email">
+    </div>
+
+    <div class="input-box">
+      <input type="number" placeholder="Phone Number">
+      <input type="text" placeholder="Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn-1">
+
+  </form>
+</section>
+<footer>
+  <div class="container"> <q> Thank you for visiting my portfolio. </q> </div>
+</footer>
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+
+</html>

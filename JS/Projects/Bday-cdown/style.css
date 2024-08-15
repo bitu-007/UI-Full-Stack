@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Kalnia+Glaze:wght@100..700&family=Marck+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+HR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan+SC&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.countdown {
+  font-size: 200px;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+#message h1 {
+  font-size: 50px;
+  /* color: #ff5722; */
+  color: whitesmoke;
+}
+
+.birthday-image {
+  height: 400px;
+  width: 800px;
+  border: 2px solid;
+  border-radius: 50px 0 50px 0;
+}
+
+h1 {
+  font-family: "Sedan SC", serif;
+  font-weight: 600;
+  letter-spacing: 10px;
+  font-style: normal;
+  animation: typing 8s infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 15%;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

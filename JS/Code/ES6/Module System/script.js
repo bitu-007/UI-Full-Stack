@@ -71,3 +71,58 @@ class Manager extends Employee {
 }
 let obj = new Manager(25, "prasad", 10000, "manager");
 obj.getData();
+
+class Fruit {
+  name;
+  color;
+  taste;
+  constructor(n, c, t) {
+    this.name = n;
+    this.color = c;
+    this.taste = t;
+  }
+}
+class ABC extends Fruit {
+  speed;
+  constructor(n, c, t, s) {
+    super(n, c, t);
+    this.speed = s;
+  }
+}
+
+let obj1 = new ABC("banana", "yellow", "sweet sour", 200);
+console.log(obj1);
+console.log(obj1.name);
+
+/*rest and spread:*/
+function sum(a, ...b) {
+  //rest operator
+  console.log(a, b);
+  let newArr = [5, 2, ...b, 5]; //spread operator
+  console.log(newArr); //output- [5,2,2,3,4,5]
+}
+sum(1, 2, 3, 4, 5);
+
+/*destructuring*/
+let arr = ["bapun", "bitu"];
+const [p, q] = arr;
+console.log(arr[1], p);
+
+let obj2 = {
+  name: "aadhya",
+  age: 22,
+};
+const { name, age } = obj2;
+console.log(name, age);
+
+let emp = {
+  name: "bitu",
+  salary: 100000,
+  age: 25,
+};
+const { salary } = emp;
+console.log(emp.salary, salary);
+
+/*Module System:*/
+export { salary, display };
+export default display2;
